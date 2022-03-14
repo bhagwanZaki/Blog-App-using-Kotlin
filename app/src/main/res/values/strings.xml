@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bloggy</string>
+    <string name="title1">I am strong.</string>
+    <string name="title2">I believe in myself.</string>
+    <string name="title3">Each day is a new opportunity to grow and be a better version of myself.</string>
+    <string name="title4">Every challenge in my life is an opportunity to learn from.</string>
+    <string name="title5">I have so much to be grateful for.</string>
+    <string name="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra adipiscing at in tellus integer feugiat scelerisque varius morbi. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Libero nunc consequat interdum varius sit amet mattis vulputate. Gravida arcu ac tortor dignissim convallis aenean et tortor at. Non arcu risus quis varius quam quisque id. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu. Urna nunc id cursus metus. Gravida arcu ac tortor dignissim convallis aenean et tortor. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Mattis pellentesque id nibh tortor id aliquet lectus. Ac tincidunt vitae semper quis lectus nulla at. Sit amet tellus cras adipiscing enim eu turpis. Diam quam nulla porttitor massa id. Duis ultricies lacus sed turpis. Placerat in egestas erat imperdiet sed. In eu mi bibendum neque egestas. Pulvinar elementum integer enim neque volutpat. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Nibh sed pulvinar proin gravida.</string>
+    <string name="title_activity_blog_detail">BlogDetail</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="blog_list">Bloggy</string>
+    <string name="blog_detail">{title}</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

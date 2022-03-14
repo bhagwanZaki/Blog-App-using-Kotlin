@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/blogList">
+    <fragment
+        android:id="@+id/blogList"
+        android:name="com.example.blog.BlogList"
+        android:label="@string/blog_list"
+        tools:layout="@layout/blog_list">
+        <action
+            android:id="@+id/action_blogList_to_blogDetailFragement2"
+            app:destination="@id/blogDetailFragement" />
+        <action
+            android:id="@+id/action_blogList_to_createBlog"
+            app:destination="@id/createBlog" />
+    </fragment>
+    <fragment
+        android:id="@+id/blogDetailFragement"
+        android:name="com.example.blog.BlogDetailFragement"
+        android:label="@string/blog_detail"
+        tools:layout="@layout/fragment_blog_detail_fragement">
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="content"
+            app:argType="string" />
+        <argument
+            android:name="img"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/createBlog"
+        android:name="com.example.blog.CreateBlog"
+        android:label="Create New Blog"
+        tools:layout="@layout/create_blog" />
+</navigation>
